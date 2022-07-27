@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise4</title>
+    <style>
+
+        body{
+            background-color: rgb(167, 215, 127);
+            width: 100%;
+        }
+
+        .cont-div
+        {
+            display: grid;
+            background-color: rgb(122, 187, 237);
+            width: 330px;
+            height: 400px;
+            margin: auto;
+            margin-top: 20px;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 60px;
+            padding: 15px;
+            gap: 15px;
+            border-radius: 2%;
+
+        }
+        
+        .cont-div div
+        {
+            background-color: rgb(209, 205, 205);
+            box-shadow: 3px 4px #8a8787;
+            text-align: center;
+            padding: 18px;
+        }
+        #it1
+        {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: rgb(239, 243, 231);
+
+
+        }
+        #b-plus{
+            background-color: rgb(247, 255, 100);
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+
+
+
+    <div class="cont-div">
+
+        <div class="item1" id="it1"></div>
+        <div class="item2">1</div>
+        <div class="item3">2</div>
+        <div class="item4">3</div>
+        <div class="item5" id="b-plus">+</div>
+        <div class="item6">4</div>
+        <div class="item7">5</div>
+        <div class="item8">6</div>
+        <div style="background-color: rgb(247, 255, 100);" class="item9">-</div>
+        <div class="item10">7</div>
+        <div class="item11">8</div>
+        <div class="item12">9</div>
+        <div style="background-color: rgb(247, 255, 100);" class="item13">*</div>
+        <div style="background-color: rgb(230, 144, 144);" class="item14">C</div>
+        <div class="item15">0</div>
+        <div class="item16">=</div>
+        <div style="background-color: rgb(247, 255, 100);" class="item17">/</div>
+
+    </div>
+    
+</body>
+</html>

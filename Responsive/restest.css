@@ -1,0 +1,211 @@
+
+body{
+    width: 100%;
+}
+
+.home {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+
+.h_3 {
+
+    align-content: center;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 450px;
+}
+
+.color_home {
+    color: greenyellow;
+
+}
+
+.like_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+
+}
+
+.L_img {
+    padding-left: 20px;
+}
+
+.S_img {
+    padding-left: 20px;
+    margin-right: 30px;
+}
+
+
+
+.center {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
+} 
+
+.all {
+    font-size: x-large;
+    width: 150px;
+    font-weight: bolder;
+    border: 1px solid rgb(137, 134, 134);
+    height: 39px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+label {
+    background-color: rgb(19, 168, 19);
+    font-size: x-large;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+.input_search {
+    width: 400px;
+    height: 40px;
+}
+
+.call_us {
+    padding-left: 240px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.number_call {
+    width: auto;
+    margin-top: -30px;
+    padding-right: -120px;
+}
+
+.Number {
+    margin: 20px;
+}
+
+
+
+
+.nav {
+    width: 250px;
+    height: 500px;
+    border: 1px solid rgba(145, 145, 145, 0.289);
+    text-align: center;
+
+}
+
+.h3 {
+    background-color: rgb(19, 168, 19);
+    color: aliceblue;
+    height: 40px;
+    margin: 0px;
+}
+
+.p_nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.master_img {
+   
+    margin-left: -1240px;
+    margin-top: 50px;
+
+}
+
+.master_img img {
+    vertical-align: middle;
+}
+
+.master_img .Text {
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+    padding-bottom: 250px;
+
+
+
+}
+
+.FRUIT_FRESH {
+    color: rgb(19, 168, 19);
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35px;
+}
+
+.Vege {
+    font-size: 40px;
+    font-style: italic;
+    color: #000;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    margin: 0;
+ 
+}
+
+h5 {
+    font-size: large;
+}
+
+.link {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(19, 168, 19);
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+
+
+
+.small_pic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    gap: 50px;
+    margin-left: 150px;
+
+}
+
+.small_text h4 {
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.small_text {
+    background-color: white;
+    position: absolute;
+    margin-top: -65px;
+    width: 200px;
+    height: 50px;
+    width: 230px;
+    margin-left: 20px;
+    text-align: center;
+
+}  

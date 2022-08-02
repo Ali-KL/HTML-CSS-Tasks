@@ -1,0 +1,39 @@
+.main{
+    width: 100%;
+}
+
+.header{
+    width: 60%;
+    margin: auto;
+}
+
+.navlist{
+    list-style-type: none;
+    
+}
+
+.navlist li{
+
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+
+#home-li{
+    color: #7fad39;
+}
+#likeicon , #bagicon{
+    width: 25px;
+    height: 25px;
+}
+#phone-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.corner{
+
+    display: grid;
+    grid-template: 100px 100px / 20%;
+}

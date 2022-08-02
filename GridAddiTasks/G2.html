@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Exercise #6</title>
+    <style>
+        body {
+    font-family: sans-serif;
+}
+#container {
+    display: grid;
+    width: 90%;
+    height: 96vh;
+    grid-template: repeat(6,1fr) 2fr/ repeat(60,1fr);
+    margin: auto;
+    gap: 10px;
+}
+
+#container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.first-row {
+    color: white;
+    background-color: #46b2fd;
+    grid-column: 1/61;
+}
+.second-row {
+    grid-column: span 30;
+    color: white;
+    background-color: #46b2fd;
+}
+
+.third-row {
+    grid-column: span 20;
+    color: white;
+    background-color: #46b2fd;
+}
+.fourth-row {
+    grid-column: span 15;
+    color: white;
+    background-color: #46b2fd;
+}
+
+.fifth-row {
+    grid-column: span calc(60/5);
+    color: white;
+    background-color: #46b2fd;
+}
+.sexth-row {
+    grid-column: span calc(60/6);
+    color: white;
+    background-color: #46b2fd;
+
+}
+.seventh-row {
+    grid-column: span 60;
+    color: white;
+    background-color: #46b2fd;
+    flex-direction: column ;
+}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="first-row">60 GS is starter kit for the CSS Grid</div>
+      <div class="second-row">1</div>
+      <div class="second-row">2</div>
+      <div class="third-row">1</div>
+      <div class="third-row">2</div>
+      <div class="third-row">3</div>
+      <div class="fourth-row">1</div>
+      <div class="fourth-row">2</div>
+      <div class="fourth-row">3</div>
+      <div class="fourth-row">5</div>
+      <div class="fifth-row">1</div>
+      <div class="fifth-row">2</div>
+      <div class="fifth-row">3</div>
+      <div class="fifth-row">4</div>
+      <div class="fifth-row">5</div>
+      <div class="sexth-row">1</div>
+      <div class="sexth-row">2</div>
+      <div class="sexth-row">3</div>
+      <div class="sexth-row">4</div>
+      <div class="sexth-row">5</div>
+      <div class="sexth-row">6</div>
+      <div class="seventh-row">
+        <p>Why 60?</p>
+        <p>Because the number 60 is dividable by 2,3,4,5 and 6.</p>
+      </div>
+    </div>
+  </body>
+</html>
